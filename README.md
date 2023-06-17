@@ -24,7 +24,7 @@ Once you've downloaded it, go to your downloads folder (or where the file downlo
 Follow the instructions and make sure you have enough disk space to install it.
 ## Step 2: Install Visual Studio Code and use it
 Download Visual Studio Code from https://code.visualstudio.com/
-When you finish installing .NET SDK, open Visual Studio Code. Once ot opens, choose your dedicated folder you want to use to create the WinForms template.
+When you finish installing .NET SDK, open Visual Studio Code. Once it opens, choose your dedicated folder you want to use to create the WinForms template.
 Then click "View" on the menu strip and click Terminal.
 In Terminal, type "dotnet new winforms"; A new WinForms template will appear.
 You can now start coding in your WinForms environment!
@@ -34,6 +34,18 @@ Go to the Mac Terminal and type "brew install --cask dotnet-sdk"
 Make sure you have enough disk space to install it.
 ## Step 2: Install Visual Studio Code and use it
 Download Visual Studio Code from https://code.visualstudio.com/
-When you finish installing .NET SDK, open Visual Studio Code. Once ot opens, choose your dedicated folder you want to use to create the WinForms template.
-Download this repository by going to https://github.com/ZakDevOnGitHub/CSharpWinFormsTemplate/ and 
+When you finish installing .NET SDK, open Visual Studio Code.
+Download this repository by going to https://github.com/ZakDevOnGitHub/CSharpWinFormsTemplate/ and click the green button labeled "Code" on the right side of the page.
+Click Download ZIP; extract the zip file once it's done donwloading. Open Visual Studio Code and select the folder with the template.
 You can now start coding in your WinForms environment!
+### Linux
+## Step 1: Install .NET Software Development Kit (aka SDK)
+Press CTRL + ALT + T and type (sudo) snap install dotnet-sdk.
+Make sure you have enough disk space to install it.
+## Step 2: Install Visual Studio Code and use it
+once .NET SDK is installed, type (sudo) snap install code.
+when you finish installing .NET SDK and Visual Studio Code, clone this repository by typing "(sudo) git clone https://codeload.github.com/ZakDevOnGitHub/CSharpWindowsTemplate"
+once the cloning finishes, Open Visual Studio Code and select the folder with the template.
+You can now start coding in your WinForms environment!
+## Conclusion
+This conclude the introduction to WinForms and using them with Visual Studio code. Happy Coding! :)
